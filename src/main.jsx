@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 
 import "@fontsource/nunito";
+import "@fontsource/montserrat";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

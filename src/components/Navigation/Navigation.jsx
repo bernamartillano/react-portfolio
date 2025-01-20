@@ -5,12 +5,12 @@ import Navbar from "react-bootstrap/Navbar";
 
 export const Navigation = () => {
   return (
-    <Navbar expand="lg" sticky="top">
+    <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#home">BM</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="justify-content-end flex-grow-1 pe-3">
+          <Nav className="justify-content-end flex-grow-1 pe-3 fontSize">
             <Nav.Link href="#home">About</Nav.Link>
             <Nav.Link href="#link">Experience</Nav.Link>
             <Nav.Link href="#link">Skills</Nav.Link>
