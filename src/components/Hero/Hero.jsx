@@ -13,12 +13,17 @@ export const Hero = () => {
         <Row className="row">
           <Col>
             <div className="titleHeading">
-              <h6 className="subtitle">Looking for a Developer?</h6>
+              {/* <h6 className="subtitle">Looking for a Developer?</h6> */}
               <h1 className="heading"> I'm Bernadette Martillano</h1>
               <p className="description">
                 I'm a highly skilled Frontend Developer with 6 years of
                 experience in creating user-centric, high-performance web
                 applications.
+                <br /> <br />
+                This website is still work in progress, you can download my CV
+                for now.
+                <br /> <br />
+                Reach out to know more!
               </p>
             </div>
           </Col>
@@ -31,7 +36,6 @@ export const Hero = () => {
           </Col>
           <div>
             <Button className="buttons hireMe">Hire Me</Button>
-            {/* <Button className="buttons downloadCv">Download CV</Button> */}
             <a href={myPdf} download="CV.pdf" className="downloadCv">
               Download CV
             </a>
