@@ -1,0 +1,69 @@
+@import "../../vars.css";
+.experience {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  position: relative;
+  background-color: #fff;
+}
+
+.row {
+  justify-content: center;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px !important;
+  }
+}
+.workTitle {
+  text-align: center;
+}
+
+.title {
+  font-weight: 500;
+  transition: all 0.2s ease;
+  text-transform: capitalize;
+  color: var(--color-secondary);
+}
+
+.company {
+  font-size: 13px !important;
+  font-weight: 500;
+  color: var(--color-secondary);
+}
+
+.date {
+  position: static !important;
+}
+
+.vertical-timeline::before {
+  background: var(--color-dark) !important;
+}
+
+.summary {
+  font-size: 14px !important;
+  color: #8492a6;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+
+.vertical-timeline-element-content:hover {
+  border-color: #0000 !important;
+  box-shadow: 0 10px 25px #3c485826;
+  transform: translateY(-5px);
+
+  .title {
+    color: var(--color-primary);
+  }
+}
+
+.vertical-timeline--two-columns .vertical-timeline-element-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.date {
+  position: static;
+  font-size: 12px !important;
+}
